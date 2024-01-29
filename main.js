@@ -4,7 +4,6 @@ import { Deployer, AddonLoader, Addon } from './core/boot.js';
 import { Login } from './utils/ds.js';
 import './utils/mod_logger.js';
 
-
 let start_date = new Date();
 
 // Нужно для параллельного подключения к Discord и Сборка аддонов
@@ -17,7 +16,7 @@ const LaunchBot = new Promise((res, rej) => {
         });
     })
     .catch((e) => {
-        rej(Err.LoginDiscordError);
+        rej(Err.LoginDiscordError({}));
     });
 });
 const BuildAddons = new Promise((res, rej) => {

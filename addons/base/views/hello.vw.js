@@ -24,7 +24,8 @@ export default {
         }
 
         const msg = await this.send({ code: 'eph-hello', name: interaction.user.name });
-        msg.reg({
+        const adapter = await this.BindAdapter(msg);
+        adapter.reg({
             event_code: 'share',
             action: async() => {
                 msg.run({ code: 'remove' });

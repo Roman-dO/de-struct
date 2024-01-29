@@ -1,21 +1,12 @@
 {
-  "name": "roulette-2",
-  "version": "0.2.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "run": "node main.js"
-  },
+  "name": "de-struct",
+  "packageManager": "yarn@3.3.1",
   "type": "module",
   "dependencies": {
-    "@jest/globals": "^29.5.0",
-    "discord": "^0.8.2",
-    "discord.js": "^14.13.0",
-    "firebase": "^10.4.0",
-    "jest": "^29.5.0",
-    "mongoose": "^8.1.0",
-    "nodemon": "^3.0.1",
-    "vite": "^4.4.11",
-    "ws": "^8.16.0"
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.1.1"
+  },
+  "scripts": {
+    "run": "node main.js"
   }
 }

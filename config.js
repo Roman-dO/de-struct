@@ -1,6 +1,7 @@
 const config = {
     // Служебная информация
-    token: 'MTA1MzI2NzE0NzU1NzcwMzY4MA.GjHRhg.B9Cy8qg2INgHXiS9pfLCb1nb3TEJyFo9rohJ9E',
+    // Для теста подставляйте произвольный токен
+    token: 'ТОКЕН',
     clientId: '1053267147557703680',
 
     // Выключает авторизацию бота

@@ -8,6 +8,9 @@ export const client = new Client({
 
 
 export async function Login() {
-    await client.login(Config.token);
+    await client.login(Config.token)
+      .catch(e => {
+        console.log('Error: ', e);
+      });
     return client;
 }
