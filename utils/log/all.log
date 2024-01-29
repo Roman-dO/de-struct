@@ -1,0 +1,9 @@
+$<3:4:918> [DEBUG] connected
+$<3:4:68> [DEBUG] CREATING:  file:///C:/Users/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD/Documents/GitHub/roulette-bot/addons/base/
+$<3:4:70> [DEBUG] CREATING:  file:///C:/Users/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD/Documents/GitHub/roulette-bot/addons/roulette/
+$<3:4:124> [DEBUG] Начало сборки аддона roulette
+$<3:4:143> [DEBUG] Начало сборки аддона base
+$<3:4:269> [DEBUG] casino manager [BOT] just launched
+$<3:4:621> [DEBUG] Загружено 6 (/) комманд
+$<3:4:623> [DEBUG] Все загружено успешно за 666мс.
+$<3:5:897> [DEBUG] Ошибка во время выполнения команды /reset TypeError: Cannot read properties of undefined (reading 'IsAdminById')

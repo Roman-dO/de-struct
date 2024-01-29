@@ -1,0 +1,8 @@
+// TEMP
+
+export default {
+
+    load() {
+
+    }
+}
